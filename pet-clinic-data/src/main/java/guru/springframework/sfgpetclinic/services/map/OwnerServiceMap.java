@@ -10,7 +10,7 @@ import java.util.Set;
 public class OwnerServiceMap extends AbtractMapService<Owner, Long> implements OwnerService {
 
     @Override
-    public Set<Owner> findAdd() {
+    public Set<Owner> findAll() {
         return super.findAll();
     }
 

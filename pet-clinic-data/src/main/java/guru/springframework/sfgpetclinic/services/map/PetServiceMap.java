@@ -9,7 +9,7 @@ import java.util.Set;
 @Service
 public class PetServiceMap  extends AbtractMapService<Pet, Long> implements PetService {
     @Override
-    public Set<Pet> findAdd() {
+    public Set<Pet> findAll() {
         return super.findAll();
     }
 

@@ -10,7 +10,7 @@ import java.util.Set;
 public class VetServiceMap  extends AbtractMapService<Vet, Long> implements VetService {
 
     @Override
-    public Set<Vet> findAdd() {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
