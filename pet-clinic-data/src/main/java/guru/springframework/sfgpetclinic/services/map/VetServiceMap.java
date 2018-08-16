@@ -42,7 +42,7 @@ public class VetServiceMap  extends AbtractMapService<Vet, Long> implements VetS
                 }
             });
         }
-        
+
         return super.save(vet);
     }
 
